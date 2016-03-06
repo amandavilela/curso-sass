@@ -2,32 +2,28 @@
 
 ## Índice
 
-- Sobre Sass
+- [Sobre Sass](about.md)
 
--  Instalação
+- [Instalação](installation.md)
 
-- Seletores
+- [Seletores](selectors.md)
 
-  + Propriedades Aninhadas
+- [Variáveis](variables.md)
 
-  + Pseudo-elementos
+- [Interpolação](interpolation.md)
 
-- Variáveis
+- [Extend](extend.md)
 
-- Interpolação
+- [Operações](operations.md)
 
-- Extend
+- [Mixins](mixins.md)
 
-- Operações
+- [Funções](functions.md)
 
-- Mixins
+- [Placeholders](placeholders.md)
 
-- Funções
+- [Condições](conditions.md)
 
-- Placeholders
+- [Iteração](iteration.md)
 
-- Condições
-
-- Iteração
-
-- Media Queries
+- [Media Queries](media-queries.md)
