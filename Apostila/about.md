@@ -2,12 +2,12 @@
 
 O pré-processador Sass(Syntactically Awesome Stylesheet) foi criado em 2006 por desenvolvedores Ruby com o objetivo de aumentar a produtividade ao codificar CSS, a grosso modo, o Sass estende o CSS, fornecendo mecanismos disponíveis em linguagens de programação mais tradicionais que não estão disponíveis no CSS, através destes mecanismos, como variáveis, loops, funções e etc, é possível produzir o código de forma rápida, com manutenção fácil, prática e de baixo custo.
 
-A implementação oficial do Sass é open-source e codificada em Ruby, no entanto, existem outras implementações em outras linguagens através da biblioteca LibSass como Python, Java, PHP, JavaScript e muitas outras, neste curso utilizaremos o módulo node-sass do Node, para compilar nossos arquivos Sass.
+A implementação oficial do Sass é open-source e codificada em Ruby, no entanto, existem várias implementações em outras linguagens como Python, Java, PHP, JavaScript e muitas outras, desenvolvidas através da biblioteca LibSass. Neste curso utilizaremos o módulo node-sass do Node, para compilar nossos arquivos Sass.
 
 
 ### Pré-Processador
 
-O Sass precisa ser pré-processado antes de gerar o CSS que será renderizado pelo navegador, portanto, o navegador nunca vai ler direto o código SASS, por isso utilizaremos o node-sass Sass, que compilará o arquivo Sass e salvar o resultado em um arquivo CSS que será renderizado pelo navegador.
+O Sass precisa ser pré-processado antes de gerar o CSS que será renderizado pelo navegador, portanto, o navegador nunca vai ler direto o código Sass, por isso utilizaremos o node-sass Sass, que compilará o arquivo Sass e salvar o resultado em um arquivo CSS que será renderizado pelo navegador.
 
 
 ### Instalação
