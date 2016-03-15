@@ -7,7 +7,7 @@ A implementação oficial do Sass é open-source e codificada em Ruby, no entant
 
 ### Pré-Processador
 
-O Sass precisa ser pré-processado antes de gerar o CSS que será renderizado pelo navegador, portanto, o navegador nunca vai ler direto o código Sass, por isso utilizaremos o node-sass Sass, que compilará o arquivo Sass e salvar o resultado em um arquivo CSS que será renderizado pelo navegador.
+O Sass precisa ser pré-processado antes de gerar o CSS que será renderizado pelo navegador, logo, o navegador nunca renderiza o código Sass diretamente, por este motivo utilizaremos o node-sass Sass, este módulo compila o arquivo Sass e salva o resultado em um arquivo CSS que será renderizado pelo navegador.
 
 
 ### Instalação
@@ -87,7 +87,3 @@ node-sass sass/ -o css/
 ```
 
 Os arquivos da pasta sass serão compilados e salvos na pasta css
-
-
-
-
