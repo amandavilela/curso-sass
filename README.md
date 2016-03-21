@@ -8,7 +8,7 @@ Neste curso serão abordados conceitos e funcionalidades do Sass utilizando <a h
 ## Índice
 
 - <a href="Apostila/about.md" target="_blank">Sobre Sass</a>
-- <a href="Apostila/installation.md" target="_blank">Instalação</a>
+  - <a href="Apostila/about.md#instalação" target="_blank">Instalação</a>
 - <a href="Apostila/selectors.md" target="_blank">Seletores</a>
 - <a href="Apostila/variables.md" target="_blank">Variáveis</a>
 - <a href="Apostila/interpolation.md" target="_blank">Interpolação</a>
