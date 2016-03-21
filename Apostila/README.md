@@ -3,7 +3,7 @@
 ## Índice
 
 - [Sobre Sass](about.md)
-- [Instalação](installation.md)
+  - [Instalação](about.md#instalação)
 - [Seletores](selectors.md)
 - [Variáveis](variables.md)
 - [Interpolação](interpolation.md)
