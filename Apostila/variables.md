@@ -52,7 +52,7 @@ aside {
 
 ```
 
-## Strings
+### Strings
 
 Da mesma forma que o CSS aceita uma cadeia de caracteres com aspas ("Lucida Grande"), apóstrofo ('Lucida Grande'), ou sem aspas (sans-serif), o Sass também aceita. O tipo de declaração utilizada no Sass aparecerá no CSS resultante.
 
@@ -83,7 +83,7 @@ section {
 ```
 
 
-## Cores
+### Cores
 
 As cores podem ser atribuidas à variáveis da mesma forma que são declaradas no CSS, o Sass aceita hexadecimais, rgb, rgba e as cores padrão.
 
@@ -123,7 +123,7 @@ section {
 
 ```
 
-## Boleanos e Null
+### Boleanos e Null
 
 Podem ser criadas variáveis boleanas com os valores true ou false. Também é possível criar uma variável vazia atribuindo a ela o valor null.
 <br><br>
@@ -141,7 +141,7 @@ $color-dark: null;
 
 ```
 
-## Lista
+### Lista
 
 As listas são a forma como Sass representa os valores de algumas declarações CSS como margin: 10px 15px 0 0 ou font-face: Helvetica, Arial, sans-serif. As listas são apenas uma série de valores, separados por espaços ou vírgulas.
 <br><br>
@@ -161,7 +161,7 @@ $animals: "puma", "sea-slug", "egret", "salamander";
 
 ```
 
-## Maps
+### Maps
 
 As listas são muito interessantes, porém se limitam a uma dimensão, por esta razão existem os maps que adicionam dimensões às listas, os maps podem ser comparados aos arrays em linguagens de programação, pois sempre estão ligadas à associação entre chaves e valores.
 <br><br>
