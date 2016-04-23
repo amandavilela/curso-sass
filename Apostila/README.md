@@ -14,8 +14,6 @@
     - [Operações numéricas](operations.md#number-operations)
     - [Operações com cores](operations.md#color-operations)
     - [Operações com String](operations.md#operações-com-string)
-    - [Operações Booleanas](operations.md#operações-booleanas)
-    - [Operações com lista](operations.md#operações-com-lista)
     - [Operadores Relacionais](operations.md#operadores-relacionais)
 - [Mixins](mixins.md)
 - [Funções](functions.md)
