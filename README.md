@@ -19,8 +19,6 @@ Neste curso serão abordados conceitos e funcionalidades do Sass utilizando <a h
   - <a href="Apostila/operations.md#number-operations" target="_blank">Operações numéricas</a>
   - <a href="Apostila/operations.md#color-operations" target="_blank">Operações com cores</a>
   - <a href="Apostila/operations.md#operações-com-string" target="_blank">Operações com String</a>
-  - <a href="Apostila/operations.md#operações-booleanas" target="_blank">Operações Booleanas</a>
-  - <a href="Apostila/operations.md#operações-com-lista" target="_blank">Operações com lista</a>
   - <a href="Apostila/operations.md#operadores-relacionais" target="_blank">Operadores Relacionais</a>
 - <a href="Apostila/mixins.md" target="_blank">Mixins</a>
 - <a href="Apostila/functions.md" target="_blank">Funções</a>
