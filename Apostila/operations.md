@@ -1,6 +1,6 @@
 # Operações
 
-O Sass permite que sejam realizadas cinco tipos de operações: operações numéricas, operações com cores, operações com strings, operações boleanas e operações com listas.
+Através do Sass é possível realizar os seguintes tipos de operações: operações numéricas, operações com cores e operações com strings.
 A seguir veremos detalhadamente cada tipo de operação.
 
 ## Number Operations
@@ -134,9 +134,11 @@ p {
 - Operadores de multiplicação (*) e divisão (/) tem uma prioridade mais alta em comparação com a adição (+) e os operadores de subtração (-).
 
 ## Color Operations
-Todas as operações aritméticas são suportadas para valores de cor, onde trabalham por partes. 
+Todas as operações aritméticas são suportadas para valores de cor (hexadecimal, rgb e rgba), onde trabalham por partes. 
 
 Exemplos:
+
+Adição
 
 ```
 p {
@@ -155,11 +157,111 @@ p {
 }
 ```
 
+Multiplicação
+
+```
+p {
+  color: #010203 * 2;
+}
+```
+
+01 * 2 = 02, 02 * 2 = 04, and 03 * 2 = 06
+
+Será compilado para:
+
+```
+p {
+  color: #020406;
+}
+```
+
+RGBA
+
+```
+p {
+  color: rgba(255, 0, 0, 0.75) + rgba(0, 255, 0, 0.75);
+}
+```
+Será compilado para:
+
+```
+p {
+  color: rgba(255, 255, 0, 0.75);
+}
+```
+* Observe que as cores em RGB e RGBA devem ter o mesmo valor de alfa para que a as operações sejam realizadas com eles
+* Muitas vezes é mais útil para usar as funções de cor do que tentar operações de cor para conseguir alguns efeitos.
+
 ## Operações com String
 
-## Operações booleanas
+O sinal de + pode ser utilizado para concatenar strings.
 
-## Operações com lista
+Exemplos:
+
+```
+p {
+  cursor: e + -resize;
+}
+```
+
+Será compilado para:
+
+```
+p {
+  cursor: e-resize;
+}
+```
+
+A concatenação pode ser realizada com strings entre aspas ou sem aspas, o resultado é sempre uma string.
+
+```
+p:before {
+  content: "Teste " + Teste;
+  font-family: sans- + "serif";
+}
+```
+
+Será compilado para:
+
+```
+p:before {
+  content: "Teste Teste";
+  font-family: sans-serif;
+}
+```
+
+Dentro de uma string, a interpolação pode ser utilizada para incluir valores dinâmicos dentro da string:
+
+```
+p:before {
+  content: "Eu tenho #{2 + 10} moedas.";
+}
+```
+
+Será compilado para:
+
+```
+p:before {
+  content: "Eu tenho 12 moedas.";
+}
+```
+
+Null é tratado como uma string vazia dentro da interpolação.
+
+```
+$value: null;
+p:before {
+  content: "Eu tenho #{$value} moedas.";
+}
+```
+
+Será compilado para:
+
+```
+p:before {
+  content: "Eu tenho  moedas.";
+}
+```
 
 ## Operadores Relacionais
-Os operadores relacionais (<,>, <=,> =) também são suportados para os números e operadores de igualdade (==,! =) são suportados para todos os tipos.
+Os operadores relacionais (<,>, <=,> =) são suportados para todos os números. Os operadores de igualdade (==,! =) são suportados para todos os tipos.
