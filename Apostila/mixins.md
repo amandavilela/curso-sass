@@ -5,7 +5,7 @@ Muitas vezes temos declarações repetidas várias vezes no arquivo CSS, para co
 
 ##Como declarar
 
-A declaração do mixin começa com @mixin, em seguida vem o nome do mixin, que conter qualquer combinação de caracteres alfabéticos e numéricos sem espaços e os argumentos entre parênteses. O mixin border-radius utilizado como exemplo, só possui um argumento $radius, mas pode-se utilizar vários argumentos desde que eles estejam separados por vírgulas. Por fim, entre chaves vem a definição do mixin que conter qualquer combinação de atributos CSS.
+A declaração do mixin começa com @mixin, em seguida vem o nome do mixin, que pode conter qualquer combinação de caracteres alfabéticos e numéricos sem espaços e os argumentos entre parênteses. O mixin border-radius utilizado como exemplo, só possui um argumento $radius, mas pode-se utilizar vários argumentos desde que eles estejam separados por vírgulas. Por fim, entre chaves vem a definição do mixin que conter qualquer combinação de atributos CSS.
 
 
 ```
