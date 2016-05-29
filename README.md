@@ -26,3 +26,4 @@ Neste curso serão abordados conceitos e funcionalidades do Sass utilizando <a h
 - <a href="Apostila/conditions.md" target="_blank">Condições</a>
 - <a href="Apostila/iteration.md" target="_blank">Iteração</a>
 - <a href="Apostila/media-queries.md" target="_blank">Media Queries</a>
+- <a href="Apostila/import.md" target="_blank">Import</a>
