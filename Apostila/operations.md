@@ -265,3 +265,7 @@ p:before {
 
 ## Operadores Relacionais
 Os operadores relacionais (<,>, <=,> =) são suportados para todos os números. Os operadores de igualdade (==,! =) são suportados para todos os tipos.
+
+___
+
+<p align="center"><a href="extend.md"  title="Anterior"><< @extend</a> | <a href="mixins.md" title="Próximo">Mixins >></a></p>
