@@ -155,3 +155,7 @@ p {
 }
 
 ```
+
+___
+
+<p align="center"><a href="operations.md"  title="Anterior"><< Operações</a> | <a href="functions.md" title="Próximo">Funções >></a></p>
