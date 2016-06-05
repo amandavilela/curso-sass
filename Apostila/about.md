@@ -87,3 +87,7 @@ node-sass sass/ -o css/
 ```
 
 Os arquivos da pasta sass serão compilados e salvos na pasta css
+
+___
+
+<p align="center"><a href="../Apostila#Índice" title="Índice">Índice</a> | <a href="selectors.md" title="Próximo">Seletores >></a></p>
