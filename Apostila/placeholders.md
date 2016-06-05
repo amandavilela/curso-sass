@@ -95,3 +95,7 @@ div, .container {
 }
 ```
 Os seletores foram agrupados e isso ocorre devido ao objetivo do mixin que é ter conteúdo dinâmico, portanto raramente vão ter seletores com propriedades iguais para serem agrupados. Como o propósito do placeholder é reaproveitar blocos estáticos, que sempre terão o mesmo conteúdo, ocorre o agrupamento de seletores.
+
+___
+
+<p align="center"><a href="functions.md"  title="Anterior"><< Funções</a> | <a href="conditions.md" title="Próximo">Condições >></a></p>
