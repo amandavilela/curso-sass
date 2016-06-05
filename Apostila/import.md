@@ -67,3 +67,7 @@ Style.scss:
 ```
 
 Não é necessário colocar o _ na importação dos arquivos.
+
+___
+
+<p align="center"><a href="media-queries.md.md"  title="Anterior"><< @media</a> | <a href="../Apostila#Índice" title="Índice">Índice</a></p>
