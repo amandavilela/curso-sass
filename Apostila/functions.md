@@ -106,3 +106,7 @@ Retorna uma lista de todas as chaves de um map
 
 - map-values($map)
 Retorna uma lista de todos os valores de map
+
+___
+
+<p align="center"><a href="mixins.md"  title="Anterior"><< Mixins</a> | <a href="placeholders.md" title="Próximo">Placeholders >></a></p>
