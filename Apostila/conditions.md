@@ -39,3 +39,6 @@ header {
 }
 ```
 
+___
+
+<p align="center"><a href="placeholders.md"  title="Anterior"><< Placeholders</a> | <a href="iteration.md" title="Próximo">Iterações >></a></p>
