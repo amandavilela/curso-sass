@@ -1,13 +1,13 @@
 # Curso-CSS-SASS
-Curso da Webschool.io sobre SASS.
+Curso da Webschool.io sobre Sass.
 
-Sass é uma é uma extensão do CSS que adiciona diversos recursos à linguagem, como criação de variáveis, loops, funções e muito mais. Através destes recursos é possível produzir e manter grandes arquivos CSS organizados e desenvolver rapidamente pequenos arquivos. Depois de compilado, o Sass gera o CSS.
+Sass é uma linguagem que extende e adiciona diversos recursos ao CSS, como criação de variáveis, loops, funções e muito mais. Através destes recursos é possível produzir e manter grandes arquivos CSS organizados além desenvolver rapidamente pequenos arquivos.
 
 Neste curso serão abordados conceitos e funcionalidades do Sass utilizando <a href="https://github.com/sass/node-sass" target="_blank">node-sass</a> para compilação.
 
-## Índice
+## Apostila
 
-- <a href="Apostila/about.md" target="_blank">Sobre Sass</a>
+- <a href="Apostila/about.md" target="_blank">Introdução</a>
   - <a href="Apostila/about.md#instalação" target="_blank">Instalação</a>
 - <a href="Apostila/selectors.md" target="_blank">Seletores</a>
   - <a href="Apostila/selectors.md#propriedades-aninhadas" target="_blank">Propriedades Aninhadas</a>
