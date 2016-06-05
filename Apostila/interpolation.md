@@ -42,3 +42,7 @@ p {
 ```
 
 A interpolação pode ser muito bem utilizada dentro de funções e mixins. Serão exibidas outras formas de utilizar interpolação agregadas com recursos que serão vistos nos próximos tópicos.
+
+___
+
+<p align="center"><a href="variables.md"  title="Anterior"><< Variáveis</a> | <a href="extend.md" title="Próximo">@extend >></a></p>
