@@ -2,7 +2,7 @@
 
 ## Índice
 
-- [Sobre Sass](about.md)
+- [Introdução](about.md)
   - [Instalação](about.md#instalação)
 - [Seletores](selectors.md)
     - [Propriedades Aninhadas](selectors.md#propriedades-aninhadas)
