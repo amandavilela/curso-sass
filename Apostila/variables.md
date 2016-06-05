@@ -190,3 +190,7 @@ $social: (
 );
 
 ```
+
+___
+
+<p align="center"><a href="selectors.md" title="Anterior"><< Seletores</a> | <a href="interpolation.md" title="Próximo">Interpolation >></a></p>
