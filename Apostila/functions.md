@@ -56,7 +56,6 @@ Escurece a cor de acordo porcentagem passada como argumento.
 Remove as aspas de uma string
 
 - quote($string)
-Adds quotes to a string.
 Adiciona aspas em uma string
 
 - str-length($string)
