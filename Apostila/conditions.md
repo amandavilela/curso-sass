@@ -28,7 +28,7 @@ header {
 }
 
 ```
-No exemplo acima, existe uma variável $template e o esquema de cores do seletor header será atribuido de acordo com o valor da variável $template. Neste caso, o esquema de cores atribuido será o primeiro, pois o valor da variável $template é igual a dark.
+No exemplo acima, existe uma variável $template e o esquema de cores do seletor header será atribuído de acordo com o valor da variável $template. Neste caso, o esquema de cores atribuído será o primeiro, pois o valor da variável $template é igual a dark.
 
 O CSS compilado será:
 

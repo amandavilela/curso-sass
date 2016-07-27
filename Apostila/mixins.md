@@ -79,7 +79,7 @@ h1 {
 
 ##Keyword Arguments
 
-Keyword Arguments existem a partir Sass 3.1, com os Keyword Arguments, os argumentos ficam explicitos na chamada do mixin e é possível utilizar os argumentos em qualquer ordem.
+Keyword Arguments existem a partir Sass 3.1, com os Keyword Arguments, os argumentos ficam explícitos na chamada do mixin e é possível utilizar os argumentos em qualquer ordem.
 
 Exemplos:
 

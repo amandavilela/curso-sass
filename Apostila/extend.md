@@ -5,7 +5,7 @@ Com a diretiva @extend é possível herdar estilos de outras classes, sua utiliz
 Alguns exemplos de utilização:
 
 Temos dois tipos de erro que possuem características iguais, porém possuem algumas exceções de cor de acordo com a gravidade do erro.
-Criamos a classe .msg que receberá as características semelhantes e extendemos a classe .msg nas classes de erro específicas.
+Criamos a classe .msg que receberá as características semelhantes e estendemos a classe .msg nas classes de erro específicas.
 
 ```
 .msg {
