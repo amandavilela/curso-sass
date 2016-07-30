@@ -1,7 +1,7 @@
 # Seletores
 
 Em Sass podemos utilizar mesmos seletores do CSS: de tipo, de classe e de id.
-<br>Neste tópico veremos algumas facilidades para tornar a escrita mais rápida utilizando seletores, propridades aninhadas e pseudo-elementos.
+<br>Neste tópico veremos algumas facilidades para tornar a escrita mais rápida utilizando seletores, propriedades aninhadas e pseudo-elementos.
 
 ## Seletores Aninhados
 
@@ -92,7 +92,7 @@ nav {
 
 ## Pseudo-elementos e o &
 
-O caracter & é utilizado fara fazer referência ao seletor pai, com ele também podemos aninhar os pseudo-elementos.
+O caractere & é utilizado fara fazer referência ao seletor pai, com ele também podemos aninhar os pseudo-elementos.
 <br /><br />
 Exemplo:
 <br />

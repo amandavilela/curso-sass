@@ -69,7 +69,7 @@ A estrutura da diretiva @each é:
 @each $var in <lista>
 ```
 
-$var pode ser qualquer variável e < list > é uma lista. Quando processado, $var é atribuido para cada item na lista.
+$var pode ser qualquer variável e < list > é uma lista. Quando processado, $var é atribuído para cada item na lista.
 
 Exemplo:
 

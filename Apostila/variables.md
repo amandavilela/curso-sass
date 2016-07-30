@@ -8,7 +8,7 @@ Variáveis Sass começam com cifrão e são definidas como propriedades CSS:
 $bg: #f0f0f3;
 ```
 
-Recomenda-se que as variáveis Sass sejam nomeadas com hífens ou underlines.
+Recomenda-se que as variáveis Sass sejam nomeadas com hifens ou underlines.
 <br>
 Exemplo: $bg-azul, $bg_azul
 
@@ -85,7 +85,7 @@ section {
 
 ### Cores
 
-As cores podem ser atribuidas à variáveis da mesma forma que são declaradas no CSS, o Sass aceita hexadecimais, rgb, rgba e as cores padrão.
+As cores podem ser atribuídas à variáveis da mesma forma que são declaradas no CSS, o Sass aceita hexadecimais, rgb, rgba e as cores padrão.
 
 Exemplo:
 
@@ -125,7 +125,7 @@ section {
 
 ### Boleanos e Null
 
-Podem ser criadas variáveis boleanas com os valores true ou false. Também é possível criar uma variável vazia atribuindo a ela o valor null.
+Podem ser criadas variáveis booleanas com os valores true ou false. Também é possível criar uma variável vazia atribuindo a ela o valor null.
 <br><br>
 Estes tipos de dados não são utilizados diretamente no CSS, logo estas variáveis geralmente são utilizadas em funções e mixins do Sass, conteúdo que será visto mais a frente.
 
