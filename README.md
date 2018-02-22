@@ -1,10 +1,12 @@
-# Curso-CSS-SASS
-
+# Curso-CSS-SASS :computer:
+ 
 Sass é uma linguagem que estende e adiciona diversos recursos ao CSS, como criação de variáveis, loops, funções e muito mais. Através destes recursos é possível produzir e manter grandes arquivos CSS organizados além desenvolver rapidamente pequenos arquivos.
 
 Neste curso serão abordados conceitos e funcionalidades do Sass utilizando <a href="https://github.com/sass/node-sass" target="_blank">node-sass</a> para compilação.
 
-## Apostila
+:computer: Assista as aulas [aqui](https://goo.gl/LNM59Z)
+
+## Apostila :books:
 
 - <a href="Apostila/about.md" target="_blank">Introdução</a>
   - <a href="Apostila/about.md#instalação" target="_blank">Instalação</a>
