@@ -1,8 +1,8 @@
-#Funções
+# Funções
 
 O Sass possui algumas funções nativas e também possibilita que sejam criadas novas funções.
 
-##Criando uma função
+## Criando uma função
 
 A declaração de uma função começa com @function, em seguida vem o nome da função, que pode conter qualquer combinação de caracteres alfabéticos e numéricos sem espaços, os argumentos entre parênteses e a definição da função entre chaves.
 
@@ -14,7 +14,7 @@ As funções podem acessar quaisquer variáveis definidas globalmente. Uma funç
 }
 ```
 
-##Utilizando uma função
+## Utilizando uma função
 
 Para utilizar uma função basta colocar o nome e passar os argumentos:
 
@@ -32,11 +32,11 @@ div {
 }
 ```
 
-##Funções Nativas
+## Funções Nativas
 
 Nesta apostila serão mostradas algumas das principais funções nativas do Sass. É possível consultar uma lista com todas as funções nativas no site do <a href="http://sass-lang.com/documentation/Sass/Script/Functions.html" target="_blank">Sass</a>.
 
-###Funções de cor
+### Funções de cor
 
 - rgb($red, $green, $blue)
 Retorna uma cor de acordo com os valores passados para o vermelho, verde e azul.
@@ -81,7 +81,7 @@ Arredonda um número até o próximo número inteiro
 - floor($number)
 Arredonda um número para baixo para o número inteiro anterior
 
-###Funções com listas
+### Funções com listas
 
 - length($list)
 Retorna a quantidade de itens de uma lista
@@ -95,7 +95,7 @@ Junta duas listas em uma
 - append($list1, $val, [$separator])
 Acrescenta um valor único no fim da lista
 
-###Funções com maps
+### Funções com maps
 
 - map-merge($map1, $map2)
 Une dois maps em um só map
