@@ -1,8 +1,8 @@
-#Iterações
+# Iterações
 
 Para realização de iterações, existem as diretivas @for, @each e @while.
 
-##@for
+## @for
 
 A diretiva @for pode ser utilizada de duas formas:
 
@@ -59,7 +59,7 @@ Será compilado para:
 }
 ```
 
-##@each
+## @each
 
 A diretiva @each trabalha com [listas](https://github.com/Webschool-io/Curso-CSS-SASS/blob/master/Apostila/variables.md#lista).
 
@@ -103,7 +103,7 @@ Será compilado para:
 
 ```
 
-##@while
+## @while
 
 A diretiva @while recebe uma expressão e imprime um o bloco de estilos até que a expressão seja falsa. Esta diretiva é muito parecida com a diretiva @for, é possível criar instruções de loop muito complexos "enquanto" uma condição específica é avaliada como verdadeira.
 

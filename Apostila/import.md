@@ -1,4 +1,4 @@
-#@import
+# @import
 
 Através da diretiva @import é possível importar arquivos no seu arquivo principal. Durante o processo de compilação os arquivos importados são unificados gerando um único arquivo CSS. Todas as variáveis ou mixins definidas nos arquivos importados podem ser usados no arquivo principal.
 
@@ -32,7 +32,7 @@ Exemplos de utilização
 @import "file1", "file2";
 ```
 
-##Partials
+## Partials
 
 Para organizar melhor o seu projeto, utilizando o import você pode dividir seu CSS em vários pedaços e importar em um arquivo principal. Caso você deseje importar cada arquivo scss/sass de estilo específico, mas não quer que toda hora esse arquivo seja compilado para um arquivo separado, basta colocar um _ na frente do nome do arquivo. Isto indicará para o Sass não compilá-lo para um arquivo CSS, este é o conceito de **partials**. 
 
