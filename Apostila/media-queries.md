@@ -1,4 +1,4 @@
-#@media
+# @media
 
 A diretiva @media funciona no Sass da mesma forma que funciona no CSS, porém há possibilidade de encaixá-las em regras CSS, desta forma é possível declarar dentro do seletor qual será o comportamento dele de acordo com cada @media.
 
@@ -45,7 +45,7 @@ A @media é declarada para cada seletor. No momento de compilação todas as reg
 }
 
 ```
-###mixins + media + interpolation + @content
+### mixins + media + interpolation + @content
 
 A seguir será apresentado um exemplo utilizando mixins, media, interpolação e content, cujo objetivo é simplificar a chamada das diferentes diretivas @media que podem existir em seu CSS.
 

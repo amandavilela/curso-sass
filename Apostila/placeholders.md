@@ -1,4 +1,4 @@
-#Placeholders
+# Placeholders
 
 A declaração de placeholders é semelhante a de classes e ids, o # ou . são substituídos por %, a grosso modo pode-se dizer que placeholders são classes que não aparecem no CSS compilado.
 
